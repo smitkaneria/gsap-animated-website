@@ -1,0 +1,222 @@
+@font-face {
+    font-family: NeueMachina-Regular;
+    src: url(assets/fonts/NeueMachina-Regular.otf);  /* Replace with your actual font file path */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 40px 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+nav h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+nav h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+nav button{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid black ;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: transparent;
+}
+nav h1 i{
+    display:inline-block;
+    rotate: 45deg;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.center{
+    height: 80%;
+    width: 100%;
+    padding: 80px;
+    display: flex;
+}
+.center-part1{
+    height: 100%;
+    width: 40%;
+}
+.center-part2{
+    height: 100%;
+    width: 60%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+.center-part2 img{
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.center-part1 h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: NeueMachina-Regular;
+    line-height: 1.2;
+}
+.center-part1 p{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: NeueMachina-Regular;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+.center-part1 button{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid black ;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.section1bottom{
+    display: flex;
+    justify-content: center;
+}
+.section1bottom img{
+    height: 100px;
+    margin-right: 40px;
+}
+.section2 .services{
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap:20px;
+}
+.services h3{
+background-color: #bbd861;
+padding: 5px 10px;
+font-weight: 500;
+border-radius: 7px;
+font-family:NeueMachina-Regular;
+font-size: 30px;
+}
+.services p{
+    width: 40%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.section2 {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh; /* optional: to center vertically if you want full page */
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;
+    align-items: center;
+}
+
+.elem {
+    height: 250px;
+    width: 480px;
+    border: 3px solid black;
+    border-radius: 40px;
+    box-shadow: 0px 5px 0px black;
+}
+
+.elem-part-1{
+    height: 100%;
+    width: 50%;
+    margin-top: 50px;
+}
+.elem-part-2{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.elem-part-2 img{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+}
+.elem-part-1 h2{
+    width: 100%;
+    font-family: NeueMachina-Regular;
+    margin-left: 15px;
+    padding: 0px 5px;
+    text-align: start;
+}
+.elem-part-1 h4{
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 20px;
+    display: flex;
+    align-items:center;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.box-content{
+    display: flex;
+    gap: 60px;
+}
+.white{
+    background-color: white;
+    color: black;
+}
+.white h2{
+    background-color: #bbd861;
+}
+.black{
+    background-color: black;
+    color: aliceblue;
+}
+.black h2{
+    background-color: white;
+    color: black;
+}
+.white i{
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+}
+.black i{
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+}
